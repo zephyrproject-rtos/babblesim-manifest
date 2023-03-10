@@ -1,6 +1,10 @@
+# Copyright 2023 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+#
 # west manifest file for BabbleSim
 #
 # Check https://babblesim.github.io/fetching.html for more information
+#
 
 manifest:
   defaults:
@@ -12,12 +16,40 @@ manifest:
 
   self:
     path: bsim
-  #
-  # Please add items below based on alphabetical order
+
   projects:
     - name: base.git
       path: bsim/components
-      revision: master
+      revision: 77f627d61b941b37eb7be42b4f92e75aa630b0ee
+      groups:
+        - babblesim
     - name: ext_2G4_libPhyComv1.git
       path: bsim/components/ext_2G4_libPhyComv1
-      revision: master
+      revision: f1bef5aadf5003db3c5f845d7d2b6546c18f0f44
+      groups:
+        - babblesim
+    - name: ext_2G4_phy_v1.git
+      path: bsim/components/ext_2G4_phy_v1
+      revision: 19f0e2d82e4de92b632edec52945a06268c8b345
+      groups:
+        - babblesim
+    - name: ext_2G4_channel_NtNcable.git
+      path: bsim/components/ext_2G4_channel_NtNcable
+      revision: 99989294473acc95acda56bc700aba1cfa3453da
+      groups:
+        - babblesim
+    - name: ext_2G4_modem_magic.git
+      path: bsim/components/ext_2G4_modem_magic
+      revision: 4669179e59924f37ca8302f121ce4ef7d6dd6916
+      groups:
+        - babblesim
+    - name: ext_2G4_device_burst_interferer.git
+      path: bsim/components/ext_2G4_device_burst_interferer
+      revision: d3e555acc26d0d7d6759eee3b7dca397b79ba30e
+      groups:
+        - babblesim
+    - name: ext_libCryptov1.git
+      path: bsim/components/ext_libCryptov1
+      revision: 2fb92c9847d667ab9d0676d2876672ae38d0515d
+      groups:
+        - babblesim
