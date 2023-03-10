@@ -1,0 +1,23 @@
+# west manifest file for BabbleSim
+#
+# Check https://babblesim.github.io/fetching.html for more information
+
+manifest:
+  defaults:
+    remote: upstream
+
+  remotes:
+    - name: upstream
+      url-base: ssh://git@github.com/BabbleSim
+
+  self:
+    path: bsim
+  #
+  # Please add items below based on alphabetical order
+  projects:
+    - name: base.git
+      path: bsim/components
+      revision: master
+    - name: ext_2G4_libPhyComv1.git
+      path: bsim/components/ext_2G4_libPhyComv1
+      revision: master
