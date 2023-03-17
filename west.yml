@@ -20,17 +20,17 @@ manifest:
   projects:
     - name: base.git
       path: bsim/components
-      revision: 77f627d61b941b37eb7be42b4f92e75aa630b0ee
+      revision: 61a8b6d09b00a246d694116ae6999b8a2895e8b6
       groups:
         - babblesim
     - name: ext_2G4_libPhyComv1.git
       path: bsim/components/ext_2G4_libPhyComv1
-      revision: f1bef5aadf5003db3c5f845d7d2b6546c18f0f44
+      revision: 1f6b057adfe86a8a3bd916619a34781e50268854
       groups:
         - babblesim
     - name: ext_2G4_phy_v1.git
       path: bsim/components/ext_2G4_phy_v1
-      revision: 19f0e2d82e4de92b632edec52945a06268c8b345
+      revision: cbfcab932976f6be837adfb05e129eddf6b92e10
       groups:
         - babblesim
     - name: ext_2G4_channel_NtNcable.git
