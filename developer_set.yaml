@@ -1,0 +1,82 @@
+# Copyright 2023 Nordic Semiconductor ASA
+# SPDX-License-Identifier: Apache-2.0
+#
+# west manifest file for BabbleSim
+# which targets developers who want a typical set of components
+# used for development and test of BLE/802.15.4 devices
+#
+# Check https://babblesim.github.io/fetching.html for more information
+#
+
+manifest:
+  defaults:
+    remote: upstream
+
+  remotes:
+    - name: upstream
+      url-base: ssh://git@github.com/BabbleSim
+
+  self:
+    path: bsim
+
+  projects:
+    - name: base.git
+      path: bsim/components
+      revision: master
+      groups:
+        - babblesim
+    - name: ext_2G4_libPhyComv1.git
+      path: bsim/components/ext_2G4_libPhyComv1
+      revision: master
+      groups:
+        - babblesim
+    - name: ext_2G4_phy_v1.git
+      path: bsim/components/ext_2G4_phy_v1
+      revision: master
+      groups:
+        - babblesim
+    - name: ext_2G4_channel_NtNcable.git
+      path: bsim/components/ext_2G4_channel_NtNcable
+      revision: master
+      groups:
+        - babblesim
+    - name: ext_2G4_channel_multiatt.git
+      path: bsim/components/ext_2G4_channel_multiatt
+      revision: master
+      groups:
+        - babblesim_extra
+    - name: ext_2G4_channel_Indoorv1.git
+      path: bsim/components/ext_2G4_channel_Indoorv1
+      revision: master
+      groups:
+        - babblesim_extra
+    - name: ext_2G4_modem_magic.git
+      path: bsim/components/ext_2G4_modem_magic
+      revision: master
+      groups:
+        - babblesim
+    - name: ext_2G4_modem_BLE_simple.git
+      path: bsim/components/ext_2G4_modem_BLE_simple
+      revision: master
+      groups:
+        - babblesim_extra
+    - name: ext_2G4_device_burst_interferer.git
+      path: bsim/components/ext_2G4_device_burst_interferer
+      revision: master
+      groups:
+        - babblesim
+    - name: ext_2G4_device_WLAN_actmod.git
+      path: bsim/components/ext_2G4_device_WLAN_actmod
+      revision: master
+      groups:
+        - babblesim_extra
+    - name: ext_2G4_device_playback.git
+      path: bsim/components/ext_2G4_device_playback
+      revision: master
+      groups:
+        - babblesim_extra
+    - name: ext_libCryptov1.git
+      path: bsim/components/ext_libCryptov1
+      revision: master
+      groups:
+        - babblesim
