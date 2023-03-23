@@ -12,7 +12,7 @@ manifest:
 
   remotes:
     - name: upstream
-      url-base: ssh://git@github.com/BabbleSim
+      url-base: https://github.com/BabbleSim
 
   self:
     path: bsim
