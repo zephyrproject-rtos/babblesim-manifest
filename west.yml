@@ -21,7 +21,7 @@ manifest:
     - name: babblesim_base
       repo-path: base.git
       path: bsim/components
-      revision: 02838ca04c4562e68dc876196828d8121679e537
+      revision: 5c1b5450da956d7295e0d7509a618e67a5ee43a2
       groups:
         - babblesim
     - name: babblesim_ext_2G4_libPhyComv1
@@ -33,7 +33,7 @@ manifest:
     - name: babblesim_ext_2G4_phy_v1
       repo-path: ext_2G4_phy_v1.git
       path: bsim/components/ext_2G4_phy_v1
-      revision: cf2d86e736efac4f12fad5093ed2da2c5b406156
+      revision: 07cb3382379d350a10be0e28c873e911e5f25b65
       groups:
         - babblesim
     - name: babblesim_ext_2G4_channel_NtNcable
@@ -45,7 +45,7 @@ manifest:
     - name: babblesim_ext_2G4_channel_multiatt
       repo-path: ext_2G4_channel_multiatt.git
       path: bsim/components/ext_2G4_channel_multiatt
-      revision: e09bc2d14b1975f969ad19c6ed23eb20e5dc3d09
+      revision: bde72a57384dde7a4310bcf3843469401be93074
       groups:
         - babblesim
     - name: babblesim_ext_2G4_modem_magic
@@ -57,7 +57,7 @@ manifest:
     - name: babblesim_ext_2G4_modem_BLE_simple
       repo-path: ext_2G4_modem_BLE_simple.git
       path: bsim/components/ext_2G4_modem_BLE_simple
-      revision: ce975a3259fd0dd761d371b60435242d54794bad
+      revision: 809ab073159c9ab6686c2fea5749b0702e0909f7
       groups:
         - babblesim
     - name: babblesim_ext_2G4_device_burst_interferer
