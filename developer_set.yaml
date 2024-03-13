@@ -86,6 +86,12 @@ manifest:
       revision: master
       groups:
         - babblesim_extra
+    - name: babblesim_ext_2G4_device_playbackv2
+      repo-path: ext_2G4_device_playbackv2
+      path: bsim/components/ext_2G4_device_playbackv2
+      revision: master
+      groups:
+        - babblesim_extra
     - name: babblesim_ext_libCryptov1
       repo-path: ext_libCryptov1.git
       path: bsim/components/ext_libCryptov1
