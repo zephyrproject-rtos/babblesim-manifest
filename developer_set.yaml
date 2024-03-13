@@ -21,67 +21,67 @@ manifest:
 
   projects:
     - name: babblesim_base
-      repo-path: base.git
+      repo-path: base
       path: bsim/components
       revision: master
       groups:
         - babblesim
     - name: babblesim_ext_2G4_libPhyComv1
-      repo-path: ext_2G4_libPhyComv1.git
+      repo-path: ext_2G4_libPhyComv1
       path: bsim/components/ext_2G4_libPhyComv1
       revision: master
       groups:
         - babblesim
     - name: babblesim_ext_2G4_phy_v1
-      repo-path: ext_2G4_phy_v1.git
+      repo-path: ext_2G4_phy_v1
       path: bsim/components/ext_2G4_phy_v1
       revision: master
       groups:
         - babblesim
     - name: babblesim_ext_2G4_channel_NtNcable
-      repo-path: ext_2G4_channel_NtNcable.git
+      repo-path: ext_2G4_channel_NtNcable
       path: bsim/components/ext_2G4_channel_NtNcable
       revision: master
       groups:
         - babblesim
     - name: babblesim_ext_2G4_channel_multiatt
-      repo-path: ext_2G4_channel_multiatt.git
+      repo-path: ext_2G4_channel_multiatt
       path: bsim/components/ext_2G4_channel_multiatt
       revision: master
       groups:
         - babblesim_extra
     - name: babblesim_ext_2G4_channel_Indoorv1
-      repo-path: ext_2G4_channel_Indoorv1.git
+      repo-path: ext_2G4_channel_Indoorv1
       path: bsim/components/ext_2G4_channel_Indoorv1
       revision: master
       groups:
         - babblesim_extra
     - name: babblesim_ext_2G4_modem_magic
-      repo-path: ext_2G4_modem_magic.git
+      repo-path: ext_2G4_modem_magic
       path: bsim/components/ext_2G4_modem_magic
       revision: master
       groups:
         - babblesim
     - name: babblesim_ext_2G4_modem_BLE_simple
-      repo-path: ext_2G4_modem_BLE_simple.git
+      repo-path: ext_2G4_modem_BLE_simple
       path: bsim/components/ext_2G4_modem_BLE_simple
       revision: master
       groups:
         - babblesim_extra
     - name: babblesim_ext_2G4_device_burst_interferer
-      repo-path: ext_2G4_device_burst_interferer.git
+      repo-path: ext_2G4_device_burst_interferer
       path: bsim/components/ext_2G4_device_burst_interferer
       revision: master
       groups:
         - babblesim
     - name: babblesim_ext_2G4_device_WLAN_actmod
-      repo-path: ext_2G4_device_WLAN_actmod.git
+      repo-path: ext_2G4_device_WLAN_actmod
       path: bsim/components/ext_2G4_device_WLAN_actmod
       revision: master
       groups:
         - babblesim_extra
     - name: babblesim_ext_2G4_device_playback
-      repo-path: ext_2G4_device_playback.git
+      repo-path: ext_2G4_device_playback
       path: bsim/components/ext_2G4_device_playback
       revision: master
       groups:
@@ -93,7 +93,7 @@ manifest:
       groups:
         - babblesim_extra
     - name: babblesim_ext_libCryptov1
-      repo-path: ext_libCryptov1.git
+      repo-path: ext_libCryptov1
       path: bsim/components/ext_libCryptov1
       revision: master
       groups:
