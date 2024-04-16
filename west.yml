@@ -33,7 +33,7 @@ manifest:
     - name: babblesim_ext_2G4_phy_v1
       repo-path: ext_2G4_phy_v1
       path: bsim/components/ext_2G4_phy_v1
-      revision: 1ab9a884621d9ca719ef23536ca47d10494220c6
+      revision: 04eeb3c3794444122fbeeb3715f4233b0b50cfbb
       groups:
         - babblesim
     - name: babblesim_ext_2G4_channel_NtNcable
