@@ -21,19 +21,19 @@ manifest:
     - name: babblesim_base
       repo-path: base
       path: bsim/components
-      revision: a3dff9a57f334fb25daa9625841cd64cbfe56681
+      revision: 0cc70e78a88c1de9d8ec045a703b38134861e7e7
       groups:
         - babblesim
     - name: babblesim_ext_2G4_libPhyComv1
       repo-path: ext_2G4_libPhyComv1
       path: bsim/components/ext_2G4_libPhyComv1
-      revision: aa4951317cc7d84f24152ea38ac9ac21e6d78a76
+      revision: 15ae0f87fa049e04cbec48a866f3bc37d903f950
       groups:
         - babblesim
     - name: babblesim_ext_2G4_phy_v1
       repo-path: ext_2G4_phy_v1
       path: bsim/components/ext_2G4_phy_v1
-      revision: 04eeb3c3794444122fbeeb3715f4233b0b50cfbb
+      revision: 62e797b2c518e5bb6123a198382ed2b64b8c068e
       groups:
         - babblesim
     - name: babblesim_ext_2G4_channel_NtNcable
