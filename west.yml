@@ -24,18 +24,6 @@ manifest:
       revision: 0cc70e78a88c1de9d8ec045a703b38134861e7e7
       groups:
         - babblesim
-    - name: babblesim_ext_2G4_libPhyComv1
-      repo-path: ext_2G4_libPhyComv1
-      path: bsim/components/ext_2G4_libPhyComv1
-      revision: 15ae0f87fa049e04cbec48a866f3bc37d903f950
-      groups:
-        - babblesim
-    - name: babblesim_ext_2G4_phy_v1
-      repo-path: ext_2G4_phy_v1
-      path: bsim/components/ext_2G4_phy_v1
-      revision: 62e797b2c518e5bb6123a198382ed2b64b8c068e
-      groups:
-        - babblesim
     - name: babblesim_ext_2G4_channel_NtNcable
       repo-path: ext_2G4_channel_NtNcable
       path: bsim/components/ext_2G4_channel_NtNcable
@@ -48,28 +36,16 @@ manifest:
       revision: bde72a57384dde7a4310bcf3843469401be93074
       groups:
         - babblesim
-    - name: babblesim_ext_2G4_modem_magic
-      repo-path: ext_2G4_modem_magic
-      path: bsim/components/ext_2G4_modem_magic
-      revision: edfcda2d3937a74be0a59d6cd47e0f50183453da
-      groups:
-        - babblesim
-    - name: babblesim_ext_2G4_modem_BLE_simple
-      repo-path: ext_2G4_modem_BLE_simple
-      path: bsim/components/ext_2G4_modem_BLE_simple
-      revision: 4d2379de510684cd4b1c3bbbb09bce7b5a20bc1f
+    - name: babblesim_ext_2G4_device_WLAN_actmod
+      repo-path: ext_2G4_device_WLAN_actmod
+      path: bsim/components/ext_2G4_device_WLAN_actmod
+      revision: 9cb6d8e72695f6b785e57443f0629a18069d6ce4
       groups:
         - babblesim
     - name: babblesim_ext_2G4_device_burst_interferer
       repo-path: ext_2G4_device_burst_interferer
       path: bsim/components/ext_2G4_device_burst_interferer
       revision: 5b5339351d6e6a2368c686c734dc8b2fc65698fc
-      groups:
-        - babblesim
-    - name: babblesim_ext_2G4_device_WLAN_actmod
-      repo-path: ext_2G4_device_WLAN_actmod
-      path: bsim/components/ext_2G4_device_WLAN_actmod
-      revision: 9cb6d8e72695f6b785e57443f0629a18069d6ce4
       groups:
         - babblesim
     - name: babblesim_ext_2G4_device_playback
@@ -82,6 +58,30 @@ manifest:
       repo-path: ext_2G4_device_playbackv2
       path: bsim/components/ext_2G4_device_playbackv2
       revision: 0a3c28ecd59b5ee08ed4668446c243d3ffd98b46
+      groups:
+        - babblesim
+    - name: babblesim_ext_2G4_libPhyComv1
+      repo-path: ext_2G4_libPhyComv1
+      path: bsim/components/ext_2G4_libPhyComv1
+      revision: 15ae0f87fa049e04cbec48a866f3bc37d903f950
+      groups:
+        - babblesim
+    - name: babblesim_ext_2G4_modem_BLE_simple
+      repo-path: ext_2G4_modem_BLE_simple
+      path: bsim/components/ext_2G4_modem_BLE_simple
+      revision: 4d2379de510684cd4b1c3bbbb09bce7b5a20bc1f
+      groups:
+        - babblesim
+    - name: babblesim_ext_2G4_modem_magic
+      repo-path: ext_2G4_modem_magic
+      path: bsim/components/ext_2G4_modem_magic
+      revision: edfcda2d3937a74be0a59d6cd47e0f50183453da
+      groups:
+        - babblesim
+    - name: babblesim_ext_2G4_phy_v1
+      repo-path: ext_2G4_phy_v1
+      path: bsim/components/ext_2G4_phy_v1
+      revision: 62e797b2c518e5bb6123a198382ed2b64b8c068e
       groups:
         - babblesim
     - name: babblesim_ext_libCryptov1
