@@ -61,15 +61,15 @@ manifest:
       groups:
         - babblesim
     - name: babblesim_ext_2G4_libPhyComv1
-      repo-path: ext_2G4_libPhyComv1
+      repo-path: ext_2G4_libPhyComv1_future
       path: bsim/components/ext_2G4_libPhyComv1
-      revision: 15ae0f87fa049e04cbec48a866f3bc37d903f950
+      revision: 38d55f6f49564bb843c8de7f1e91a3d5a52e48a1
       groups:
         - babblesim
     - name: babblesim_ext_2G4_modem_BLE_simple
-      repo-path: ext_2G4_modem_BLE_simple
+      repo-path: ext_2G4_modem_BLE_simple_future
       path: bsim/components/ext_2G4_modem_BLE_simple
-      revision: 4d2379de510684cd4b1c3bbbb09bce7b5a20bc1f
+      revision: 1be7c971147a78465a38e5b3c3cf54e3e7ae2eb2
       groups:
         - babblesim
     - name: babblesim_ext_2G4_modem_magic
