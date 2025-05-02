@@ -81,7 +81,7 @@ manifest:
     - name: babblesim_ext_2G4_phy_v1
       repo-path: ext_2G4_phy_v1
       path: bsim/components/ext_2G4_phy_v1
-      revision: 62e797b2c518e5bb6123a198382ed2b64b8c068e
+      revision: ade704c9b8fc25e86ec9308757bc1874c0aa2fc9
       groups:
         - babblesim
     - name: babblesim_ext_libCryptov1
